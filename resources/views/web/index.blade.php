@@ -62,8 +62,8 @@
 
         @foreach($data as $row)
             @foreach($row as $carClass)
-                <div class="grid-box "  data-aos="fade-up" >
-                    <div class="inner">
+                <div class="grid-box  "  data-aos="fade-up" >
+                    <div class="inner shadow-lg">
 
                         @if($carClass->get('Car Class ID') == '473')
                             <div class="flex justify-between bg-red-500 align-center items-center">
@@ -73,6 +73,8 @@
                                             <div class="flex justify-between bg-yellow-500 align-center items-center">
                         @elseif($carClass->get('Car Class ID') == '1450')
                                                     <div class="flex justify-between bg-purple-500 align-center items-center">
+                                                        @else
+                                                            <div class="flex justify-between bg-purple-500 align-center items-center">
                         @endif
 
 
@@ -91,10 +93,11 @@
                             <div>
 
                             </div>
-                            <div class="font-semibold text-xl mt-3 mb-2">
+                            <div class="font-semibold text-xl mt-3 mb-2" style="border-bottom: 2px solid #d8d8d8;
+    display: inline-block;">
                                 {{ $carClass->get('Name') }}
                             </div>
-                            <div class="flex justify-between ">
+                            <div class="flex justify-between items-center">
                                 <div>
                                     <span class="font-semibold">
                                         @if($carClass->get('Car Class ID') == '473')
@@ -109,16 +112,16 @@
                                     </span>
                                         &nbsp;#{{ $carClass->get('Car #') }}<br />
                                 </div>
-                                <div>
+                                <div class="text-sm" style="max-width: 60%;">
                                     {{ $carClass->get('Car') }}<br />
                                 </div>
                             </div>
                             <div class="flex justify-between mt-4 mb-4">
                                 <div class="text-center flex-1">
-                                    <div class="bg-gray-700 text-white">
+                                    <div class="bg-yellow-700 text-white">
                                         Average Lap
                                     </div>
-                                    <div class="bg-gray-200">
+                                    <div class="bg-yellow-500  font-bold">
                                         {{ $carClass->get('Average Lap Time') }}
                                     </div>
                                 </div>
@@ -126,7 +129,7 @@
                                     <div class="bg-purple-700 text-white">
                                         Fastest Lap
                                     </div>
-                                    <div class="bg-purple-200 font-bold text-gray-900">
+                                    <div class="bg-purple-300 font-bold text-gray-900">
                                         {{ $carClass->get('Fastest Lap Time') }}
                                     </div>
                                 </div>

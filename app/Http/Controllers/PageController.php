@@ -8,6 +8,8 @@ class PageController extends Controller
 {
     public function index(){
         $filename = 'eventresult_36048724.csv';
+//        $filename = 'eventresult_33787076.csv';
+        $isTeamRace = 1;
         $session = [];
         $results = [];
         $teams = [];
@@ -36,23 +38,26 @@ class PageController extends Controller
                     foreach($keys as $key => $value){
                         $reverseKeys[$value] = $key;
                     }
+
                     continue;
                 }
 
 
                 if($count > 3){
                     $result = null;
+
                     foreach ($keys as $line => $key){
 
                         $data[$line] = utf8_encode($data[$line]);
-
 
                         if(empty($data[$reverseKeys['Club ID']])){
                             $teams[abs($data[$reverseKeys['Team ID']])] = $data[$reverseKeys['Name']];
                             break;
                         } else {
                             if($key == 'Team ID'){
-                                $result[$key] = $teams[abs($data[$line])];
+                                if($isTeamRace == 1){
+                                    $result[$key] = $teams[abs($data[$line])];
+                                }
                                 continue;
                             }
                             $result[$key] = $data[$line];
@@ -67,17 +72,7 @@ class PageController extends Controller
 
             }
             fclose($handle);
-            // Car Class
-            // TEAM
-             // DRIVERS
 
-
-            // POS  NAME   TEAM   FASTEST LAP   TOTAL LAPS   INCIDENTS
-
-//
-//
-//          dump($session);
-//            dump($results);
             $resultsCollection = collect($results)->groupBy('Fin Pos');
             $teamCollection = collect($teams);
 //            dump($resultsCollection);

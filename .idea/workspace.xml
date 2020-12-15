@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0971720d-6615-4695-9dc7-c238828bb2b5" name="Default Changelist" comment="" />
+    <list default="true" id="0971720d-6615-4695-9dc7-c238828bb2b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/index.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="91" column="119" selection-start-line="91" selection-start-column="119" selection-end-line="91" selection-end-column="119" />
-              <folding>
-                <marker date="1608042313846" expanded="true" signature="2142:2323" ph="..." />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -49,12 +51,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/web/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="36" column="127" selection-start-line="36" selection-start-column="127" selection-end-line="36" selection-end-column="127" />
+            <state relative-caret-position="472">
+              <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#6915#6921#0#HTML" expanded="true" />
               </folding>
             </state>
@@ -79,6 +82,9 @@
     <findStrings>
       <find>enc</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -206,6 +212,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -255,6 +262,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -290,12 +298,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608033157598</updated>
-      <workItem from="1608033158707" duration="9749000" />
+      <workItem from="1608033158707" duration="12016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9749000" />
+    <option name="totallyTimeSpent" value="12016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
@@ -360,22 +368,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="91" column="119" selection-start-line="91" selection-start-column="119" selection-end-line="91" selection-end-column="119" />
-          <folding>
-            <marker date="1608042313846" expanded="true" signature="2142:2323" ph="..." />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/web/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="127" selection-start-line="36" selection-start-column="127" selection-end-line="36" selection-end-column="127" />
+        <state relative-caret-position="472">
+          <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#6915#6921#0#HTML" expanded="true" />
           </folding>
         </state>
